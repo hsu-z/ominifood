@@ -1,0 +1,145 @@
+/***************************/
+/* General Components */
+/***************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  color: #555;
+  font-weight: 400;
+}
+
+/***************************/
+/* General Components */
+/***************************/
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+section {
+  padding: 9.6rem 0;
+}
+
+.grid {
+  display: grid;
+  column-gap: 9.6rem;
+  row-gap: 6.4rem;
+}
+
+.grid--center--v {
+  align-items: center;
+  justify-content: center;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3--cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4--cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* Heading Component */
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  color: #333;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+
+.heading-primary {
+  font-size: 5.2rem;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  font-weight: 600;
+  margin-bottom: 9.6rem;
+}
+
+.heading-tertiary {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.sub-heading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #cf711f;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Button Component */
+
+.btn:link,
+.btn:visited {
+  font-size: 2rem;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 1.2rem 2.4rem;
+  border-radius: 9px;
+  transition: all 0.3s;
+}
+
+.btn--full:link,
+.btn--full:visited {
+  background-color: #e67e22;
+  color: #fff;
+  font-weight: 600;
+}
+
+.btn--full:active,
+.btn--full:hover {
+  background-color: #b8651b;
+  color: #fff;
+}
+
+.btn-right-sm {
+  margin-right: 2.4rem;
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: #fff;
+  color: #333;
+}
+
+.btn--outline:active,
+.btn--outline:hover {
+  background-color: #fdf2e9;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem;
+}
