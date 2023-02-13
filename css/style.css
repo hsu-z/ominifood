@@ -492,11 +492,9 @@ Gray : #555
   display: grid;
   grid-template-columns: 2fr 1fr;
   color: #542801;
-  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.75);
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.45);
   border-radius: 11px;
   overflow: hidden;
-  /* tempo width */
-  height: 50rem;
 }
 
 .cta-img-box {
@@ -511,7 +509,7 @@ Gray : #555
 }
 
 .cta-text-box {
-  padding: 3.4rem 6.4rem;
+  padding: 4.8rem 6.4rem;
   color: #2e1907;
 }
 
@@ -524,4 +522,124 @@ Gray : #555
   font-size: 1.8rem;
   line-height: 1.8;
   margin-bottom: 4.8rem;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem;
+}
+
+.cta-form label {
+  display: block;
+  color: inherit;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 1.2rem;
+}
+
+.cta-form input,
+.cta-form select {
+  display: block;
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: 9px;
+  font-size: 1.8rem;
+  color: inherit;
+  letter-spacing: 1px;
+  font-family: inherit;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form input::placeholder {
+  color: #aaa;
+}
+
+.btn--form {
+  background-color: #542801;
+  color: #fff;
+  align-self: end;
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+/***************************/
+/* Footer Section */
+/***************************/
+footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 9.6rem 0;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  gap: 4.8rem;
+}
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.footer-heading {
+  font-size: 1.8rem;
+  color: #333;
+  text-transform: capitalize;
+  margin-bottom: 2.4rem;
+}
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #555;
+  transition: all 0.3s;
+}
+
+.footer-link:active,
+.footer-link:hover {
+  color: #333;
+}
+
+.logo {
+  margin-bottom: 2.4rem;
+}
+
+.social-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1.6rem);
+  gap: 3.2rem;
+  margin-bottom: 6.2rem;
+}
+
+.social-icon {
+  display: block;
+  font-size: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  color: #555;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
+}
+
+.footer-address {
+  font-size: 1.6rem;
+  color: #555;
+  line-height: 1.5;
+  letter-spacing: 1.2;
+  margin-bottom: 2.4rem;
+}
+
+.footer-address-list {
+  display: block;
+  margin-bottom: 1.1rem;
 }

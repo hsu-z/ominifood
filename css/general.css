@@ -8,6 +8,10 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -100,6 +104,7 @@ section {
 
 /* Button Component */
 
+.btn,
 .btn:link,
 .btn:visited {
   font-size: 2rem;
