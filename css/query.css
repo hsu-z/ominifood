@@ -195,6 +195,16 @@
   .btn:visited {
     padding: 2.4rem 1.6rem;
   }
+  .btn--start-eating,
+  .btn--learn {
+    display: inline-block;
+  }
+  .btn--start-eating {
+    margin-bottom: 1.2rem;
+  }
+  .btn--learn {
+    padding: 2.4rem 3.2rem !important;
+  }
   .hero-img {
     width: 80%;
   }
